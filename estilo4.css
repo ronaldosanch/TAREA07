@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    
+    color: white;
+    display: flex;
+    align-items: ;
+    justify-content: center;
+
+    
+}
+p{
+    text-align: center;
+    position: absolute;
+
+
+    color: white;
+    
+
+}
+#contenido{
+    height: 100vh;
+    position: relative;
+
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+    mix-blend-mode: overlay;
+}
+.x{
+    position: relative;
+    z-index: 2;
+    background-color:;
+    height: 100vh;
+}

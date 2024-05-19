@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(255, 249, 241);
+  }
+  #cabecera{
+    display: flex;
+    border: 3px solid ed;
+    padding-top: 20px;
+    width: 100%;
+  
+  }
+  #menu a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid lue;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px ;
+    padding-right: 30px;
+  }
+  .boton4{
+    border-radius: 50px;
+    border: 1px solid black;
+  }
+  .boton5{
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+  
+  }
+  
+  li{
+    border: 2px solid lack;
+    justify-content: space-between;
+    padding: 7px 30px;
+    border-radius: 30px ;
+  
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2000;
+    font-style: normal;
+    
+  }
+  li:hover {
+    background-color:rgb(251, 251, 251) ;
+    border: ;
+    color: rgb(177, 95, 95)
+    ; box-shadow: 0 0 10px rgba(81, 81, 81, 0.5);
+  }
+  
+  #logo{
+    border: 3px solid lue;
+  }
+  #menu{
+    border: 0px solid green;
+    width:100%;
+    display: flex;
+  }
+  /*--------------------*/
+
+  /*.caja2{
+    height: 400px;
+    width: 1000px;
+    border: 3px solid red;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }/*
+  
+    
+  /**/
+ 
+  /*/////////*/
+  hr{
+    border: px solid black;
+    height: 2px;
+    color: black;
+    width: 98%;
+    background-color: black;
+  }
+  .hr{
+    order: px solid black;
+    height: 2px;
+    color: black;
+    width: 100%;
+    background-color: black;
+    
+  }
+  #pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  #contenedormenu{
+    display: flex;
+    border: 3px solid ed;
+    flex-direction: row;
+  }
+  #texto{
+    border: 3px solid lue;
+    width: 20%;
+    text-align: initial;
+    padding-left: 10px
+    ;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 0 10px;
+    
+  }
+  #texto li{
+    border: 3px solid ed;
+    flex-direction: column;
+  }
+  #texto nav{
+    border: 3px solid iolet;
+    margin: px;
+    padding: 20px
+    ;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+ ;
+  }
+  #texto h1{
+    padding-left: 22px;
+    margin: 10px 0 20px 0;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <200>;
+    font-style: normal;
+    ;
+  }
+  #texto div:hover{
+    background-color: rgb(255, 220, 220);
+  }
+  #modelosimg{
+    border: 3px solid qua;
+    width: 80%;
+    height: ;
+  }
+
+
+
+
+  #modelosimagenes{
+    border: 3px solid ellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 80px;
+
+  }
+  #modelosimagenes nav{
+    border: 3px solid urple;
+    justify-content: ;
+    width: calc(50% - 10px);
+    margin: 5px;
+    height: 16%;
+    margin: ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px
+    ;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  #modelosimagenes h{
+    background-color: lack;
+  }
+ /*separacion*/
+
+
+
+ #con{
+    background-color: ed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: ;
+
+
+}
+#con nav{
+    background-color: lack;
+    height: 90%;
+    width: 70%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.video1{
+    background-color: lue;
+    width: 50%;
+    height: 90%;
+    margin: 5px;
+}
+.text1{
+    background-color: iolet;
+    width: 50%;
+    height: 90%;
+    margin: 5px;
+    overflow-y: scroll;
+    text-align: justify;
+    font-size: 15px;
+    padding: 
+}
+
+
+.video2{
+    background-color: lue;
+    width: 50%;
+    height: 90%;
+    margin: 5px;
+}
+.text2{
+    background-color: lue;
+    width: 50%;
+    height: 90%;
+    margin: 5px;
+    
+}
+.text2{
+    background-color: iolet;
+    width: 50%;
+    height: 90%;
+    margin: 5px;
+    overflow-y: scroll;
+    text-align: justify;
+    font-size: 15px;
+    padding: 
+}
+
+
+
+/*vvvvv*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*separacion*/
+  
+#modelosimagenes img{
+    border-radius:50% ;
+    height: 100px;
+    height: 180px;
+    width: 180px;
+}
